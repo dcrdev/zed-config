@@ -9,7 +9,7 @@
 {
   // Appearance
   "minimap": {
-    "show": "always"
+    "show": "always",
   },
   "title_bar": {
     "show_branch_icon": true,
@@ -21,6 +21,7 @@
   "scrollbar": {
     "axes": {
       "horizontal": false,
+      "vertical": false,
     },
   },
 
@@ -44,7 +45,7 @@
     "mode": "eager",
   },
   "agent": {
-    "default_width": 600,
+    "default_width": 375,
     "tool_permissions": {
       "tools": {
         "mcp:mcp-server-context7:resolve-library-id": {
