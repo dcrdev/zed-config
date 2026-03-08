@@ -84,6 +84,7 @@
   "terminal": {
     "cursor_shape": "bar",
     "blinking": "on",
+    "default_height": 320,
   },
   "git_panel": {
     "tree_view": false,
