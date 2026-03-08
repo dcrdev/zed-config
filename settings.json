@@ -7,7 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // Appearance
   "minimap": {
     "show": "always",
   },
@@ -24,8 +23,6 @@
       "vertical": false,
     },
   },
-
-  // Cursor
   "cursor_blink": true,
   "cursor_shape": "bar",
   "experimental.theme_overrides": {
@@ -35,12 +32,12 @@
       },
     ],
   },
-
-  // Editor
   "show_completions_on_input": true,
   "show_completion_documentation": true,
 
-  // AI
+  "notification_panel": {
+    "default_width": 375,
+  },
   "edit_predictions": {
     "mode": "eager",
   },
@@ -74,26 +71,24 @@
       "api_url": "http://localhost:8317",
     },
   },
-
-  // Project Panel
   "project_panel": {
     "entry_spacing": "comfortable",
     "indent_size": 20,
     "default_width": 350,
   },
-
-  // Terminal
+  "collaboration_panel": {
+    "default_width": 350,
+  },
+  "outline_panel": {
+    "default_width": 350,
+  },
   "terminal": {
     "cursor_shape": "bar",
     "blinking": "on",
   },
-
-  // Git
   "git_panel": {
     "tree_view": false,
   },
-
-  // Privacy
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
