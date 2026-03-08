@@ -34,7 +34,6 @@
   },
   "show_completions_on_input": true,
   "show_completion_documentation": true,
-
   "notification_panel": {
     "default_width": 375,
   },
