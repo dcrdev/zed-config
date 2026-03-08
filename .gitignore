@@ -1,11 +1,1 @@
-# Ignore everything
-*
-
-# Allow these
-!.gitignore
-!settings.json
-!*.md
-!snippets/
-!snippets/**
-!themes/
-!themes/**
+.DS_Store
