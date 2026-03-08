@@ -87,6 +87,7 @@
     "default_height": 320,
   },
   "git_panel": {
+    "default_width": 350.0,
     "tree_view": false,
   },
   "telemetry": {
