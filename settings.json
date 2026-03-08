@@ -1,0 +1,97 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // Appearance
+  "title_bar": {
+    "show_branch_icon": true,
+  },
+  "theme": "Obsidian Prism",
+  "icon_theme": "Base Charmed Icons",
+  "ui_font_size": 15,
+  "buffer_font_size": 13,
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+    },
+  },
+
+  // Cursor
+  "cursor_blink": true,
+  "cursor_shape": "bar",
+  "experimental.theme_overrides": {
+    "players": [
+      {
+        "cursor": "#c8c8c8",
+      },
+    ],
+  },
+
+  // Editor
+  "show_completions_on_input": true,
+  "show_completion_documentation": true,
+
+  // AI
+  "edit_predictions": {
+    "mode": "eager",
+  },
+  "agent": {
+    "default_width": 600,
+    "tool_permissions": {
+      "tools": {
+        "mcp:mcp-server-context7:resolve-library-id": {
+          "default": "allow",
+        },
+        "fetch": {
+          "default": "allow",
+        },
+        "mcp:mcp-server-context7:query-docs": {
+          "default": "allow",
+        },
+      },
+    },
+    "default_model": {
+      "enable_thinking": true,
+      "provider": "anthropic",
+      "model": "claude-opus-4-6-thinking-latest",
+    },
+    "thread_summary_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6-1m-context-latest",
+    },
+  },
+  "language_models": {
+    "anthropic": {
+      "api_url": "http://localhost:8317",
+    },
+  },
+
+  // Project Panel
+  "project_panel": {
+    "entry_spacing": "comfortable",
+    "indent_size": 20,
+    "default_width": 350,
+  },
+
+  // Terminal
+  "terminal": {
+    "cursor_shape": "bar",
+    "blinking": "on",
+  },
+
+  // Git
+  "git_panel": {
+    "tree_view": false,
+  },
+
+  // Privacy
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+}
