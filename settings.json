@@ -94,4 +94,17 @@
     "diagnostics": false,
     "metrics": false,
   },
+  "tab_size": 4,
+  "hard_tabs": false,
+  "languages": {
+    "JSON": {
+      "tab_size": 2,
+    },
+    "YAML": {
+      "tab_size": 2,
+    },
+    "Make": {
+      "hard_tabs": true,
+    },
+  },
 }
