@@ -7,24 +7,28 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "theme": "Obsidian Prism",
+  "icon_theme": "Base Charmed Icons",
+  "ui_font_size": 15,
+  "buffer_font_size": 13,
+  "tab_size": 4,
+  "hard_tabs": false,
+  "cursor_blink": true,
+  "cursor_shape": "bar",
+  "show_completions_on_input": true,
+  "show_completion_documentation": true,
   "minimap": {
     "show": "always",
   },
   "title_bar": {
     "show_branch_icon": true,
   },
-  "theme": "Obsidian Prism",
-  "icon_theme": "Base Charmed Icons",
-  "ui_font_size": 15,
-  "buffer_font_size": 13,
   "scrollbar": {
     "axes": {
       "horizontal": false,
       "vertical": false,
     },
   },
-  "cursor_blink": true,
-  "cursor_shape": "bar",
   "experimental.theme_overrides": {
     "players": [
       {
@@ -32,13 +36,22 @@
       },
     ],
   },
-  "show_completions_on_input": true,
-  "show_completion_documentation": true,
-  "notification_panel": {
-    "default_width": 375,
-  },
   "edit_predictions": {
     "mode": "eager",
+  },
+  "languages": {
+    "JSON": {
+      "tab_size": 2,
+    },
+    "JSONC": {
+      "tab_size": 2,
+    },
+    "YAML": {
+      "tab_size": 2,
+    },
+    "Make": {
+      "hard_tabs": true,
+    },
   },
   "agent": {
     "default_width": 375,
@@ -70,6 +83,9 @@
       "api_url": "http://localhost:8317",
     },
   },
+  "notification_panel": {
+    "default_width": 375,
+  },
   "project_panel": {
     "entry_spacing": "comfortable",
     "indent_size": 20,
@@ -81,30 +97,17 @@
   "outline_panel": {
     "default_width": 350,
   },
+  "git_panel": {
+    "default_width": 350.0,
+    "tree_view": false,
+  },
   "terminal": {
     "cursor_shape": "bar",
     "blinking": "on",
     "default_height": 320,
   },
-  "git_panel": {
-    "default_width": 350.0,
-    "tree_view": false,
-  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
-  },
-  "tab_size": 4,
-  "hard_tabs": false,
-  "languages": {
-    "JSON": {
-      "tab_size": 2,
-    },
-    "YAML": {
-      "tab_size": 2,
-    },
-    "Make": {
-      "hard_tabs": true,
-    },
   },
 }
