@@ -429,7 +429,9 @@
             "font_style": null,
             "font_weight": null
           }
-        }
+        },
+        "panel.overlay_background": "#080909BB",
+        "panel.overlay_hover": "#2c313aBB"
       }
     }
   ]
