@@ -1,2 +1,4 @@
 .DS_Store
 prompts/**/lock.mdb
+settings_backup.json
+settings.json.*.bak
